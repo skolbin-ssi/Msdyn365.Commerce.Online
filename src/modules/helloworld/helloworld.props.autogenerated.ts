@@ -1,5 +1,6 @@
 /**
- * Copyright (c) 2018 Microsoft Corporation
+ * Copyright (c) Microsoft Corporation
+ * All rights reserved. See License.txt in the project root for license information.
  * IHelloworld contentModule Interface Properties
  * THIS FILE IS AUTO-GENERATED - MANUAL MODIFICATIONS WILL BE LOST
  */

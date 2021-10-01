@@ -14,7 +14,9 @@
     "lint:fix": "yarn eslint src/**/*.{ts,tsx} --fix",
     "precommit": "lint-staged",
     "start": "yarn msdyn365b start local --use-eslint",
-    "start:prod": "SET NODE_ENV=production && node build/server.js"
+    "start:prod": "SET NODE_ENV=production && node build/server.js",
+    "integration": "integration"
+
   },
   "devDependencies": {
     "@msdyn365-commerce/eslint-config": "^1.0.0",
@@ -49,10 +51,10 @@
     "typeson": "5.10.1"
   },
   "dependencies": {
-    "@msdyn365-commerce-modules/starter-pack": "9.30",
-    "@msdyn365-commerce-modules/fabrikam-design-kit": "9.30",
+    "@msdyn365-commerce-modules/starter-pack": "9.31",
+    "@msdyn365-commerce-modules/fabrikam-design-kit": "9.31",
     "@msdyn365-commerce/bootloader": "^1.0.0",
-    "@msdyn365-commerce/retail-proxy": "9.30",
+    "@msdyn365-commerce/retail-proxy": "9.31",
     "@msdyn365-commerce-modules/msdyn365-exp-test-connector": "^1.0.0",
     "reactstrap": "^6.5.0",
     "stack-trace": "^0.0.10",
